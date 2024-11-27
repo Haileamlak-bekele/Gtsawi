@@ -4,8 +4,8 @@ export default function Footer() {
   const t = useTranslations('Footer');
 
   return (
-    <div className='my-10 text-center'>
-      <p>{t('copyright')}</p>
+    <div className="h-14  bg-[#3C3D37] text-center w-full">
+      <p className='text-white'>{t('copyright')}</p>
     </div>
   );
 }

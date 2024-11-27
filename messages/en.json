@@ -8,9 +8,29 @@
     "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
   },
   "Navigation": {
-    "home": "Home"
+    "home": "Home",
+    "gtsawi":"Gtsawi",
+    "mahlet":"Mahlet"
   },
   "Footer": {
     "copyright": "© 2024 Your App. All rights reserved."
+  },
+  "gtsawi1":{
+    "title": "this gtsawi...",
+    "choose":"choose Your reading plan...",
+    "seasonal":"Seasonal",
+    "daily":"Daily"
+  },
+  "gtsawi2":{
+    
+      "chooseMonth": "Choose month...",
+      "chooseDay": "choose Days...",
+      "month": [
+        "Meskerem", "Tikmt", "Hdar", "Tahsas", "Tir", "Yekatit", "Megabit", "Miyazya", 
+        "Ginbot", "Sene", "Hamle", "Nehase", "Pagume"
+      ]
+    }
+    
   }
-}
+
+

@@ -1,0 +1,117 @@
+{
+  "date": "14-03",
+  "title": "አባ ምርትያኖስ ዘአንሥአ ምውተ፤ ወአባ ዳንኤል ዘአእመኖ ለንጉሠ ፋርስ ",
+  "negh": {
+      "msbak": [
+          {
+              "text": {
+                  "geez": "እማዕምቅ ጸዋዕኩከ እግዚኦ። አግዚኦ ስምዓኒ ቃልየ። ወይኩን ዕዝንከ ዘያፀምዕ ቃለ ስእለትየ",
+                  "amharic": "አቤቱ፥ አንተን ከጥልቅ ጠራሁህ። አቤቱ፥ ድምፄን ስማ፤ ጆሮህ የልመናዬን ቃል የሚያደምጥ ይሁን። ",
+                  "english": "Out of the depths have I cried unto thee, O LORD. Lord, hear my voice: let thine ears be attentive to the voice of my supplications."
+              },
+              "verse": {
+                  "bookTitle": "መዝሙረ ዳዊት",
+                  "chapter": 129,
+                  "start": 1,
+                  "end": 2
+              }
+          }
+      ],
+      "wengel": [
+          {
+              "text": {
+                  "geez": "ሰማዕክሙ ዘተብህለ",
+                  "english": "",
+                  "amharic": ""
+              },
+              "verse": {
+                  "bookTitle": "የማቴዎስ ወንጌል",
+                  "chapter": "5",
+                  "start": "21",
+                  "end": "27",
+                  "endText": "ሰማዕክሙ"
+              }
+          }
+      ]
+  },
+  "kidassie": {
+      "msbak": [
+          {
+              "text": {
+                  "geez": "እስመ አቡየ ወእምየ ገደፉኒ። ወእግዚአብሔር ተወክፈኒ። ምርሀኒ እግዚኦ ፍኖተከ።",
+                  "english": "When my father and my mother forsake me, then the LORD will take me up. Teach me thy way, O LORD, and lead me in a plain path, ",
+                  "amharic": "አባቴና እናቴ ትተውኛልና፥ እግዚአብሔር ግን ተቀበለኝ። አቤቱ፥ መንገድህን አስተምረኝ፥ "
+              },
+              "verse": {
+                  "bookTitle": "መዝሙረ ዳዊት",
+                  "chapter": 26,
+                  "start": 10,
+                  "end": 11,
+              }
+          }
+      ],
+      "firstDeacon": [
+          {
+              "text": {
+                  "geez": "ወእምከመሰ ንሜህር ለባዕድ",
+                  "english": "",
+                  "amharic": ""
+              },
+              "verse": {
+                  "bookTitle": "ወደ ቆሮንቶስ ሰዎች ፩",
+                  "chapter": "15",
+                  "start": "12",
+                  "end": "24",
+                  "endText": "አሜሃ ይከውን"
+              }
+          },
+      ],
+      "secondDeacon": [
+          {
+              "text": {
+                  "geez": "አትሕቱ ርእሰክሙ",
+                  "english": "",
+                  "amharic": ""
+              },
+              "verse": {
+                  "bookTitle": "የጴጥሮስ መልእክት ፩",
+                  "chapter": "5",
+                  "start": "7",
+                  "end": "",
+                  "endText": ""
+              }
+          },
+      ],
+      "secondKahn": [
+          {
+              "text": {
+                  "geez": "ወርእዮ ጳውሎስ",
+                  "english": "",
+                  "amharic": ""
+              },
+              "verse": {
+                  "bookTitle": "ግብረ ሐዋርያት",
+                  "chapter": "23",
+                  "start": "6",
+                  "end": "10",
+                  "endText": "ወሶበ ተሐውኩ"
+              }
+          },
+      ],
+      "wengel": [
+          {
+              "text": {
+                  "geez": "ወሀሎ ፩ ገብረ ንጉሥ"
+              },
+              "verse": {
+                  "bookTitle": "የዮሐንስ ወንጌል",
+                  "chapter": 4,
+                  "start": 47,
+                  "end": '',
+                  "endText": ""
+              }
+          }
+      ],
+      "kidassie": ["ዘባስልዮስ"]
+  }
+}

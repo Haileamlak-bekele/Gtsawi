@@ -8,9 +8,22 @@
     "description": "Ups! Sepertinya Anda menemukan halaman yang tidak ada. Jangan khawatir, sihir internasionalisasi kami masih bekerja keras di bagian lain aplikasi. Silakan kembali untuk menjelajahi lebih lanjut!"
   },
   "Navigation": {
-    "home": "Beranda"
+    "home": "Home",
+    "gtsawi": "ግጻዌ",
+    "mahlet": "ማህሌት"
   },
   "Footer": {
     "copyright": "© 2024 Aplikasi Anda. Hak cipta dilindungi."
+  },
+  "gtsawi1":{
+    "title": "ይህ ግጻዌ...",
+    "choose": "የንባብ እቅዶን ይምረጡ...",
+     "seasonal":"የተውሳክ",
+    "daily":"የዕለት"
+  },
+  "gtsawi2":{
+    "chooseMonth":"ወር ይምረጡ...",
+    "chooseDay": " ቀን ይምረጡ...",
+    "month":["መስከረም","ጥቅምት","ህዳር","ታህሳስ","ጥር","የካቲት","መጋቢት","ሚያዝያ","ግንቦት","ሰኔ","ሀምሌ","ነሃሴ","ፓጉሜ"]
   }
 }
