@@ -16,16 +16,16 @@ export default function Gtsawi1() {
   // Access the 'month' key, fallback to an empty array if it's undefined or not valid
 
   const view = true;
-console.log(Months)
+  console.log(Months)
   return (
     <div>
      
-      <Days>
+      {/* <Days>
       <Months/>
-      </Days>
+      </Days> */}
       
-     
-
+     {/* <Wrapper /> */}
+     <Months/>
  
     </div>
      
@@ -56,6 +56,6 @@ console.log(Months)
     //   </section>
     // </div>
   );
-  
+ 
  
 }

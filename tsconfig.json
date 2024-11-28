@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/months.jsx", "src/components/days.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/months.jsx", "src/components/days.jsx", "src/components/wrapper.jsx"],
   "exclude": ["node_modules"]
 }

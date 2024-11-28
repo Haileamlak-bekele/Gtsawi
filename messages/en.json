@@ -25,10 +25,22 @@
     
       "chooseMonth": "Choose month...",
       "chooseDay": "choose Days...",
-      "month": [
-        "Meskerem", "Tikmt", "Hdar", "Tahsas", "Tir", "Yekatit", "Megabit", "Miyazya", 
-        "Ginbot", "Sene", "Hamle", "Nehase", "Pagume"
-      ]
+    
+      "month":{
+        "1":"Meskerem",
+        "2":"Tikmt",
+        "3":"Hdar",
+        "4":"Tahsas",
+        "5":"Tir",
+        "6":"Yekatit",
+        "7":"Megabit",
+        "8":"Miyazya",
+        "9":"Ginbot",
+        "10":"Sene",
+        "11":"Hamle",
+        "12":"Nehase",
+        "13":"Pagume"
+      }
     }
     
   }

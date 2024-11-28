@@ -1,25 +1,24 @@
-'use client';
-
 import React from 'react';
 
-const DayView = ({ months }) => {
-  console.log(months)
-  return (
-    <div className="w-full">
-      {/* Title for the months section */}
-      <h2 className="text-center font-bold text-xl my-4">Months List</h2>
+const DayView = ({ month, monthIndex, onBack }) => {
+  const days = Array.from({ length: 30 }, (_, i) => i + 1);
 
-      {/* Render the list of months */}
-      <ul className="grid grid-cols-4 gap-4 m-auto w-3/4">
-        {months.map((month, index) => (
-          <li
-            key={index}
-            className="bg-slate-500 text-white p-4 text-center rounded-md shadow-md"
+  return (
+    <div className="w-full h-full p-5">
+      <div className="flex justify-between items-center">
+        <button onClick={onBack} className="text-sm text-blue-500 underline">Back</button>
+        <h3 className="text-lg font-semibold">{`Days in ${month} (${monthIndex + 1})`}</h3>
+      </div>
+      <div className="grid grid-cols-6 gap-4 mt-4">
+        {days.map((day) => (
+          <div
+            key={day}
+            className="w-12 h-12 bg-gray-300 flex justify-center items-center rounded-md cursor-pointer hover:bg-gray-400"
           >
-            {month}
-          </li>
+            {day}
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
