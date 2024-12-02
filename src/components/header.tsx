@@ -23,15 +23,15 @@ export default function Header() {
       {/* Navigation Links */}
       <div className="flex space-x-10">
         {/* Home */}
-        <div className="bg-slate-100 w-20 h-8 flex justify-center items-center rounded-md hover:bg-[#697565] cursor-pointer">
+        <div className="bg-slate-100 min-w-20 h-8 flex justify-center items-center rounded-md hover:bg-[#697565] cursor-pointer">
           <Link href="/" className="text-black font-medium">{t('home')}</Link>
         </div>
         {/* Gtsawi */}
-        <div className="bg-slate-100 w-20 h-8 flex justify-center items-center rounded-md hover:bg-[#697565] cursor-pointer">
+        <div className="bg-slate-100 min-w-20 h-8 flex justify-center items-center rounded-md hover:bg-[#697565] cursor-pointer">
           <Link href={`/${locale}/gtsawi1`} className="text-black font-medium">{t('gtsawi')}</Link>
         </div>
         {/* Mahlet */}
-        <div className="bg-slate-100 w-20 h-8 flex justify-center items-center rounded-md hover:bg-[#697565] cursor-pointer">
+        <div className="bg-slate-100 min-w-20 h-8 flex justify-center items-center rounded-md hover:bg-[#697565] cursor-pointer">
           <Link href="/" className="text-black font-medium">{t('mahlet')}</Link>
         </div>
       </div>
