@@ -8,6 +8,7 @@ import {useLocale} from 'next-intl'
 export default function Gtsawi1() {
   const t = useTranslations("gtsawi1")
   const locale = useLocale();
+  console.log(t('title'))
   return (
     <div>
      

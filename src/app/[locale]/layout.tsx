@@ -26,9 +26,9 @@ export default function RootLayout({
     <html lang={locale}>
       <body className={inter.className}>
         
-        <div className='flex flex-col min-h-screen  mx-auto bg-[#ECDFCC]'>
+        <div className='flex flex-col min-h-screen  w-screen bg-[#ECDFCC]'>
           <Header />
-          <div className='flex-grow mt-20'>{children}</div>
+          <div className='flex-grow  mt-10'>{children}</div>
           <Footer />
         </div>
       </body>
