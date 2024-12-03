@@ -44,7 +44,6 @@ export default function ClientMonths({ months, selectMonth, selectDay }) {
                   }`}
                   onClick={() => handleDayClick(day)}
                 >
-                  
                   <div className="text-white text-lg"> {day}</div>
                 </div>
               ))
@@ -61,14 +60,15 @@ export default function ClientMonths({ months, selectMonth, selectDay }) {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1  overflow-y-auto">
-      <div className="p-5 sticky top-0 bg-[#D9D9D9] z-10 flex justify-center text-2xl font-bold">
-  {!(selectedMonth && selectedDay) && (selectedMonth && !selectedDay ? selectDay : selectMonth)}
-</div>
+      <div className="flex-1 overflow-y-auto">
+        <div className="p-5 sticky top-0 bg-[#D9D9D9] z-10 flex justify-center text-2xl font-bold">
+          {!(selectedMonth && selectedDay) &&
+            (selectedMonth && !selectedDay ? selectDay : selectMonth)}
+        </div>
 
         <div className="p-4 bg-[#D9D9D9] mt-6">
           {!selectedMonth ? (
-            <section className="grid grid-cols-5 gap-4">
+            <section className="grid grid-cols-4 lg:grid-cols-5 gap-4">
               {months.map((month, index) => (
                 <div
                   key={index}
@@ -80,7 +80,8 @@ export default function ClientMonths({ months, selectMonth, selectDay }) {
               ))}
             </section>
           ) : !selectedDay ? (
-            <section className="grid grid-cols-7 gap-4">
+            <section className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7">
+              {/* Adjust the grid columns for different screen sizes */}
               {Array.from({ length: 30 }, (_, i) => i + 1).map((day) => (
                 <div
                   key={day}
@@ -92,7 +93,7 @@ export default function ClientMonths({ months, selectMonth, selectDay }) {
               ))}
             </section>
           ) : (
-            <div className=" mb-4 p-3  flex flex-col">
+            <div className="mb-4 p-3 flex flex-col">
               <Maincontent
                 Selected={selectedMonth.name}
                 Day={selectedDay}
